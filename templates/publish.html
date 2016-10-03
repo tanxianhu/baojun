@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--最新的渲染模式-->
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <script type="text/javascript" src="/static/js/screen.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<img class="logo" src="/static/images/logo.png" onclick="location.href='/'">
+	</header>
+	<div class="content_module">
+		<div class="screen">
+			<dl>
+				<dt>任务选择：</dt>
+				<dd>发布</dd>
+				<dd>接收</dd>
+			</dl>
+			<dl>
+				<dt>任务难度：</dt>
+				<dd>不限</dd>
+				<dd>免费</dd>
+				<dd>初级</dd>
+				<dd>中级</dd>
+				<dd>高级</dd>
+			</dl>
+			<dl>
+				<dt>任务类型：</dt>
+				<dd>不限</dd>
+				<dd>学习</dd>
+				<dd>工作</dd>
+				<dd>生活</dd>
+				<dd>娱乐</dd>
+				<dd>其他</dd>
+			</dl>
+			<dl>
+				<dt>设定天数：</dt>
+				<dd>
+					<select>
+						<option>一天</option>
+						<option>两天</option>
+						<option>三天</option>
+						<option>一周</option>
+					</select>
+				</dd>
+			</dl>
+		</div>
+		<div class="textarea">
+			<textarea placeholder="标题(20字以内)"></textarea>
+		</div>
+		<div class="textarea">
+			<textarea class="text_contant" placeholder="内容(250字以内)"></textarea>
+		</div>
+		<div class="input_div"><button onclick="location.href='/msg/my/scheme'">发布</button></div>
+		
+	</div>
+</body>
+
+</html>
